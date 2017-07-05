@@ -14,7 +14,7 @@ rm -rf cjs
 # print to console
 echo "Compiling to CommonJS..."
 
-# loop through (not sure quite what)
+# loop through all js files in the src directory
 for f in $(find src -name "*.js")
 do
     in=$f
